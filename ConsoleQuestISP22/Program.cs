@@ -1,4 +1,6 @@
-﻿internal class Program
+﻿using ConsoleQuestISP22;
+
+internal class Program
 {
 
 
@@ -97,7 +99,11 @@
 
         //Scene0();
 
-        Console.WriteLine(Scene00());
+        Scenes Scene01 = new Scenes();
+        Scene01.SceneName = "kjnfghkj";
+        Scene01.Show();
+
+        //Console.WriteLine(Scene00());
         Console.ReadKey();
         
 
