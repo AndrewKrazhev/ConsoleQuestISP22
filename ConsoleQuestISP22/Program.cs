@@ -101,8 +101,11 @@ internal class Program
 
         Scenes Scene01 = new Scenes();
         Scene01.SceneName = "kjnfghkj";
+        Scene01.SceneNumber = 1;
         Scene01.Show();
 
+        Scenes Scene02 = new Scenes(0, intro: "dfsdff");
+        Scene02.AddSome(1, "dfsd", "fdsfsd", "dsfds");
         //Console.WriteLine(Scene00());
         Console.ReadKey();
         
