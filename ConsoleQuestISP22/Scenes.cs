@@ -13,6 +13,13 @@ namespace ConsoleQuestISP22
         int _sceneNuber = 0;
         string _sceneIntro = "";
         public Scenes() { }
+        
+        public static bool operator + (Scenes one, Scenes two)
+        {
+            return one.SceneNumber < two.SceneNumber;
+        }
+
+
 
         /// <summary>
         /// конструктор сцены.

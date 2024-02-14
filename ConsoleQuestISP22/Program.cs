@@ -109,6 +109,15 @@ internal class Program
         //Console.WriteLine(Scene00());
         Console.ReadKey();
         
+        
+        
+        var questScenes = new Dictionary<int, Scenes>();
+        questScenes.Add(1, Scene01);
+
+
+        FightScenes killTheBill = new FightScenes();
+
+        killTheBill.
 
 
     }   
