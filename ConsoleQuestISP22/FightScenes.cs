@@ -8,5 +8,8 @@ namespace ConsoleQuestISP22
 {
     internal class FightScenes : Scenes
     {
+        int _playerHP = 100;
+
+        public int PlayerHP { get { return _playerHP;} }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using ConsoleQuestISP22;
+using System.Net;
 
 internal class Program
 {
@@ -98,7 +99,7 @@ internal class Program
         */
 
         //Scene0();
-
+        /*
         Scenes Scene01 = new Scenes();
         Scene01.SceneName = "kjnfghkj";
         Scene01.SceneNumber = 1;
@@ -106,7 +107,7 @@ internal class Program
 
         Scenes Scene02 = new Scenes(0, intro: "dfsdff");
         Scene02.AddSome(1, "dfsd", "fdsfsd", "dsfds");
-        //Console.WriteLine(Scene00());
+    
         Console.ReadKey();
         
         
@@ -117,7 +118,11 @@ internal class Program
 
         FightScenes killTheBill = new FightScenes();
 
-        killTheBill.
+        Console.WriteLine( killTheBill.PlayerHP);
+        */
+
+        I2Scenes sceneI = new I2Scenes(2, "Описание", "Первая сцена");
+        sceneI.ShowScene();
 
 
     }   
